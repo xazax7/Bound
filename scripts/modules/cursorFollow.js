@@ -1,5 +1,5 @@
 export function cursor() {
-    /*
+    
     // Cursor
     $(document).on('mousemove', function (e) {
         $('.cursor').css({
@@ -7,7 +7,7 @@ export function cursor() {
             top: e.pageY
         });
     });
-    */
+    
     // Visual marker when user clicks
     $('.screen').mousedown(function (e) {
         $('.cursor-click').removeClass("blinking");
